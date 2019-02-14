@@ -24,19 +24,28 @@ img {
   border-radius: 10px;
 }
 
-mississauga img{
-  margin-right: 50px;
-  margin-left: 50px;
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color
 }
 
+}
+.topnav a.active{
+  background-color: black ;
+  color: white;
+  
+}
+
+
+/*
 nav ul {
   background-color: black;
   border-style: solid;
   border-color: black;
   border-width: 2px;
-  padding: 10px;
-  border-radius: 10px;
-}
+  padding: 5px;
+ }
 
 nav ul li {
   list-style-type: none;
@@ -50,5 +59,4 @@ nav ul li a {
   text-decoration: none;
   color: skyblue;
 }
-
-
+*/
