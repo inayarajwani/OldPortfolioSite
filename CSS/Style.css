@@ -1,0 +1,181 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+
+/*1. Nav Bar*/
+#title{
+  color: lightblue;
+  width: 100%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 35px;
+  justify-content: flex-start;
+}
+
+.tabs {
+  width: 100%; 
+  display: inline-flex;
+  flex-direction: row; 
+  justify-content: flex-end;
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: 100;
+
+}
+
+.home, .assignments, .projects {
+  padding: 0 10px;
+  display: inline-flex;
+  font-weight: 100;
+}
+
+/*a.generalnav*/
+.generalnav { 
+    background-color: black;
+    padding: 30px;
+    padding-top: 35px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.generalnav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.generalnav ul li a:hover {
+color: lightblue;
+}
+
+
+/*2. HomePage*/
+.welcome_message{
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300; 
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#Experience{
+  text-decoration: underline;
+  color: #6495ED;
+}
+
+/*AssignmentsPage*/
+
+#Modules{
+  
+}
+
+
+
+
+/*General Stuff*/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.card{
+  padding-left: 5%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-box{
+  position: sticky;
+}
+
+/*text properties*/
+body{
+  font-family: "Roboto Condensed", serif;
+  color: black;
+  font-size: 20px;
+}
+
+h2{
+  text-align: center;
+  font-family: "Satisfy";
+  font-size: 50px;
+  position: sticky;
+  margin-right: -20px;
+  margin-left: 20px;
+}
+
+h3{
+  text-align: center;
+  font-family: Oswald;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+hr{
+  height: 20px;
+  display: block;
+  border: 0;
+  border-top: 1px solid lightblue;
+  margin: 1em 0;
+  padding: 0;
+  border-width: 5px;
+}
+
+/*Images*/
+#profile-picture{
+  border-radius: 15%;
+  height: 35%;
+  width: 30%;
+  margin-left: 2%;
+  justify-content: flex-start;
+}
+
+.hero-image{
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+min-height: 100%;
+margin-top: 0px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-image: url("https://www.canva.com/learn/wp-content/uploads/2015/05/diy-design-rules.jpg")
+}
+
+.hero-image::after{
+  background-color: white;
+  opacity: 0.5;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%
+  height: 100%
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
