@@ -1,14 +1,17 @@
 function biggerNumber(){
 	var numberOne = prompt("Enter your number")
 	var numberTwo = prompt("Enter a different number")
-	if(numberOne>numberTwo){
-		console.log(numberOne+" is the biggerNumber");
-	}else if(numberTwo>numberOne){
-		console.log(numberTwo+" is the biggerNumber");
-	}else if(numberTwo==numberTwo){
-		console.log("The numbers are the same");
-	}else{
-		console.log("You didn't enter two numbers")
+	
+	console.log(numberOne); 
+	console.log(numberTwo); 
+	
+	if(numberOne > numberTwo){
+		alert(`${numberOne} is the bigger Number`);
+	} else if (numberTwo > numberOne){
+		alert(`${numberTwo} is the bigger Number`);
+	} else if(numberTwo==numberTwo){
+		alert("The numbers are the same");
+	} else {
+		alert("You didn't enter two numbers");
 	}
-
 }
