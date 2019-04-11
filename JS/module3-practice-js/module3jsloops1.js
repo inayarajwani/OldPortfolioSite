@@ -3,20 +3,22 @@ function threeFive(num){
 	/*number divided by 3 has a reminder equal to 0
 	*/
 	if(num%3==0 && num%5==0){
-		console.log ("threefive");
+		document.write("threefive ");
 	}
-	else if(num%==0){
-		console.log ("three");
+	else if(num%3==0){
+		document.write("three ");
 	}
-	else if(num %5==0){
-		console.log("five");
+	else if(num%5==0){
+		document.write("five ");
 	}
 	else{
-		console.log(num);
+		document.write(num + "");
 	}
 }
 /*(start;stop;steps)
 */
-for (var i=0; i<100; i++){
-	threeFive(i);
+function loop(){
+	for (var i=0; i<100; i++){
+		threeFive(i);
+	}
 }
