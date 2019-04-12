@@ -3,6 +3,5 @@ function pattern(){
 		for (j = 1; j <= i; i++)
 		document.write("*");
 	}
-		document.write("\n");
-	}
+	
 pattern();
