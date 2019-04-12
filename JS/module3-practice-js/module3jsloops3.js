@@ -1,28 +1,19 @@
-var x = 6;
-
 function guessTheNumber(){
-	var randomNumber = prompt("Guess a number");
+for(i = 0; i < 20; i++){
+	var randomNumber = prompt("Guess a number between 0 and 20.");
+	var x = 6;
+	var totalGuesses = [];
 
-	console.log(randomNumber)
-	var numberTwo = prompt("")
-}
-	if {
+	console.log(randomNumber);
 
+	if(randomNumber > x){
+		alert("This number is too high. Guess lower.")
+	}else if(randomNumber == x)
+		alert("Good job. The numbers are the same. It took you " + (totalGuesses.length) + "attempts!")
+	}else if(randomNumber < x)
+		alert("This number is too low. Guess higher.")
 	}
-function biggerNumber(){
-	var numberOne = prompt("Enter your number")
-	var numberTwo = prompt("Enter a different number")
-	
-	console.log(numberOne); 
-	console.log(numberTwo); 
-	
-	if(numberOne > numberTwo){
-		alert(`${numberOne} is the bigger Number`);
-	} else if (numberTwo > numberOne){
-		alert(`${numberTwo} is the bigger Number`);
-	} else if(numberTwo==numberTwo){
-		alert("The numbers are the same");
-	} else {
-		alert("You didn't enter two numbers");
-	}
-}
+
+guessTheNumber();
+
+
