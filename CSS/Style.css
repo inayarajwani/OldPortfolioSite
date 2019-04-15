@@ -100,6 +100,16 @@ color: lightblue;
   float: left;
 }
 
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #AFEEEE;
+  color: black;
+  text-align: center;
+}
+
 .big-box{
   position: sticky;
 }
