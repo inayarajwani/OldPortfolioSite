@@ -1,8 +1,10 @@
 function pattern(){
-	for (i = 1; i <=5; i++){
-		for (j = 1; j <= i; i++){
-			document.write("*");
-		}
-	pattern[j];
+	let symbol = "";
+	let star = prompt ("What symbol do you want?");
+	let repeat = parseInt(prompt("How many times do you want to run it?"));
+	for (var i = 0; i < repeat; i++){
+		 symbol = symbol + star;
+		console.log(symbol + "\n");
+
 	}
 }
