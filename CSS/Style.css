@@ -40,6 +40,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+
 }
 
 .generalnav ul li a {
@@ -78,36 +79,37 @@ color: lightblue;
 /*AssignmentsPage*/
 
 #Modules{
-  
+  text-align: center;
 }
 
 
 
 
 /*General Stuff*/
+
 .container{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+  flex-direction: row;
 }
 
 .card{
   padding-left: 90px;
   margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   float: left;
 }
 
 .footer{
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #AFEEEE;
+  background-color: #d5f6f6;
   color: black;
   text-align: center;
+  font-size: 15px;
 }
 
 .big-box{
@@ -157,6 +159,12 @@ hr{
   justify-content: flex-start;
 }
 
+#instagram-icon{
+  margin-bottom: -3px; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .hero-image{
 background-position: center;
 background-repeat: no-repeat;
@@ -183,6 +191,19 @@ background-image: url("https://www.canva.com/learn/wp-content/uploads/2015/05/di
   z-index: -1;
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  
+  margin-top: -40px;
+  border-radius: 4px;
+}
 
 .links{
   
