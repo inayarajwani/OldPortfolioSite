@@ -83,14 +83,44 @@ color: lightblue;
   margin-top: 100px;
 }
 
-#title{
-  text-align: center;
+#title_Modules p {
+  position: relative;
   font-family: Oswald;
   font-size: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
+  right: 20px;
+  left: 20px;
 }
 
+.container_Modules{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.card_Modules{
+  padding-left: 90px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+.card_Modules li{
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-flex;*/
+  font-size: 16px;
+  text-decoration-style: none;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.card_Modules button{
+   background-color: #4CAF50; /* Green */
+}
 
 
 
@@ -110,22 +140,7 @@ color: lightblue;
   margin-right: 20px;
   float: left;
 }
-.card li{
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  /*display: inline-flex;*/
-  font-size: 16px;
-  text-decoration-style: none;
-  margin-top: 20px;
-  border-radius: 4px;
-}
 
-.card button{
-   background-color: #4CAF50; /* Green */
-}
 
 .footer{
   left: 0;
