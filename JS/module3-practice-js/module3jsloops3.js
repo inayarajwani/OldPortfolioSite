@@ -8,9 +8,9 @@ let i = 0;
 	console.log(randomNumber);
 
 	if(i > x){
-		alert("This number is too high. Guess lower.")
 		i++;
-	}else if(randomNumber == x){
+		alert("This number is too high. Guess lower. You have used" + i + "attempts out of 3")
+		}else if(randomNumber == x){
 		alert("Good job. The numbers are the same. It took you" +(randomNumber.length) + " attempts.")
 		i++;
 	}else if(randomNumber < x){
