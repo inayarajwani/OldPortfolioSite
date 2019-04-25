@@ -1,4 +1,5 @@
-function biggerNumber(){
+
+function practice1(){
 	var numberOne = prompt("Enter your number")
 	var numberTwo = prompt("Enter a different number")
 	
@@ -15,3 +16,7 @@ function biggerNumber(){
 		alert("You didn't enter two numbers");
 	}
 }
+
+function biggerNumber() {
+    document.getElementById("practice1").innerHTML = function practice1(); 
+  }
