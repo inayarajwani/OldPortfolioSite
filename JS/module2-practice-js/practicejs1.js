@@ -12,11 +12,13 @@ function practice1(){
 		alert(`${numberTwo} is the bigger Number`);
 	} else if(numberTwo==numberTwo){
 		alert("The numbers are the same");
-	} else {
-		alert("You didn't enter two numbers");
+	} else {	
+		document.getElementById("practice1").innerHTML = "noot 2 mums"; 
+		/*alert("You didn't enter two numbers");*/
 	}
 }
 
-function biggerNumber() {
+/*function biggerNumber() {
     document.getElementById("practice1").innerHTML = function practice1(); 
   }
+*/
