@@ -1,4 +1,4 @@
-function practice2() {
+function threeIntegerProduct() {
 	
 	let number1 = parseInt(prompt("Enter first number"));
 	let number2 = parseInt(prompt("Enter second number"));
@@ -7,11 +7,9 @@ function practice2() {
 	const product = number1*number2*number3;
 
 	if (product < 0){
-		alert("The product is a negative number");
+		document.getElementById("practice2").innerHTML = ("The product is a negative number");
 	} else {
-		alert("The product is a positive number");
+		document.getElementById("practice2").innerHTML = ("The product is a positive number");
 	}
 }
-function threeIntegerProduct() {
-    document.getElementById("practice2").innerHTML = function practice2(); 
-  }
+
