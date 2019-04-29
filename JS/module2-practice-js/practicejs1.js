@@ -1,5 +1,5 @@
 
-function practice1(){
+function biggerNumber(){
 	var numberOne = prompt("Enter your number")
 	var numberTwo = prompt("Enter a different number")
 	
