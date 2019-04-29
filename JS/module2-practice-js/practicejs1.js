@@ -13,7 +13,7 @@ function biggerNumber(){
 	} else if(numberTwo==numberTwo){
 		alert("The numbers are the same");
 	} else {	
-		document.getElementById("practice1").innerHTML = "noot 2 mums"; 
+		document.getElementById("practice1").innerHTML = "You didn't enter two numbers"; 
 		/*alert("You didn't enter two numbers");*/
 	}
 }
