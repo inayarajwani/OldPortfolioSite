@@ -1,4 +1,4 @@
-function practice3(){
+function threeIntegerOrder(){
 
 	let numberOne = parseInt(prompt("Enter a number"));
 	let numberTwo = parseInt(prompt("Enter a different number"));
@@ -8,8 +8,6 @@ function practice3(){
 	order.sort (function(a,b){
 		return b-a});
 
-	alert (order);
+	document.getElementById("module2practice").innerHTML = (order);
 }
-function threeIntegerOrder() {
-    document.getElementById("practice3").innerHTML = function practice3(); 
-  }
+  
