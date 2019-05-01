@@ -8,6 +8,6 @@ function threeIntegerOrder(){
 	order.sort (function(a,b){
 		return b-a});
 
-	document.getElementById("module2practice").innerHTML = (order);
+	document.getElementById("module2practice3").innerHTML = (order);
 }
   
