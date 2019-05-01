@@ -7,9 +7,9 @@ function threeIntegerProduct() {
 	const product = number1*number2*number3;
 
 	if (product < 0){
-		document.getElementById("module2practice").innerHTML = ("The product is a negative number");
+		document.getElementById("module2practice1").innerHTML = ("The product is a negative number");
 	} else {
-		document.getElementById("module2practice").innerHTML = ("The product is a positive number");
+		document.getElementById("module2practice1").innerHTML = ("The product is a positive number");
 	}
 }
 
