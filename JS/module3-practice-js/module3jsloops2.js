@@ -4,7 +4,7 @@ function pattern(){
 	let repeat = parseInt(prompt("How many times do you want to run it?"));
 	for (var i = 0; i < repeat; i++){
 		 symbol = symbol + star;
-		console.log(symbol + "\n");
+		document.getElementById("module3practice2").innerHTML = (symbol + "\n");
 
 	}
 }
