@@ -9,12 +9,12 @@ let i = 0;
 
 	if(i > x){
 		i++;
-		alert("This number is too high. Guess lower. You have used" + i + "attempts out of 3")
+		document.getElementById("module3practice3").innerHTML = ("This number is too high. Guess lower. You have used" + i + "attempts out of 3")
 		}else if(randomNumber == x){
-		alert("Good job. The numbers are the same. It took you" +(randomNumber.length) + " attempts.")
+		document.getElementById("module3practice3").innerHTML = ("Good job. The numbers are the same. It took you" +(randomNumber.length) + " attempts.")
 		i++;
 	}else if(randomNumber < x){
-		alert("This number is too low. Guess higher.")
+		document.getElementById("module3practice3").innerHTML = ("This number is too low. Guess higher.")
 		i++;
 	}
 }
