@@ -3,16 +3,16 @@ function threeFive(num){
 	/*number divided by 3 has a reminder equal to 0
 	*/
 	if(num%3==0 && num%5==0){
-		document.getElementById("module3practice1").innerHTML = ("threefive ");
+		document.write = ("threefive ");
 	}
 	else if(num%3==0){
-		document.getElementById("module3practice1").innerHTML = ("three ");
+		document.write = ("three ");
 	}
 	else if(num%5==0){
-		document.getElementById("module3practice1").innerHTML = ("five ");
+		document.write = ("five ");
 	}
 	else{
-		document.getElementById("module3practice1").innerHTML = (num + "");
+		document.write = (num + "");
 	}
 }
 /*(start;stop;steps)
