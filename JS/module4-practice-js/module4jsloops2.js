@@ -1,14 +1,16 @@
-function everyOtherLetter{
+function everyOtherLetter()
+{
 	let msg = "This is a string";
 	let direction = " ";
-	let length = msg.length;
-	for(i=0; i<length){
+	let msgLength = msg.length;
+	for(i=0; i<msgLength; i++){
 		if (i%2==0){
-			document.getElementById('module4practice2').innerHTML = (direction = direction + msg.toUpperCase());
+			direction = direction + msg[i].toUpperCase();
 		}
 		else{
-			document.getElementById('module4practice2').innerHTML = (direction = direction + msg.toLowerCase());
+			direction = direction + msg[i].toLowerCase();
 		}
 	}
+	document.getElementById('module4practice2').innerHTML = direction;
 
 }
