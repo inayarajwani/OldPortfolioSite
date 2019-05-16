@@ -1,7 +1,5 @@
 function encryption(message){
   let words = message.split(" ");
-
-
   let encrypted = "";
   let listLength = words.length;
     for (i=0; i<listLength; i++){
@@ -13,7 +11,8 @@ function encryption(message){
       encrypted += otherLetters + words[i][0] + "ay ";
       }
     }
-  console.log (encrypted.toLowerCase());
+    let outputMessage = encrypted.toLowerCase()
+  document.getElementById("module5practice1").innerHTML=outputMessage;
 
 }
 encryption("This is our secret message");
