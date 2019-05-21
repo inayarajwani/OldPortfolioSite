@@ -1,4 +1,5 @@
-function encryption(message){
+function encryptionAssignmentP1(){
+  let message = prompt("What is your message?")
   let words = message.split(" ");
   let outputMessage = "" ;
   let otherLetters = "";
@@ -15,6 +16,7 @@ function encryption(message){
     }
   }
   outputMessage = encrypted.toLowerCase()
-  document.getElementById("module5practice1").innerHTML=outputMessage;
+  document.getElementById("module5assignP1").innerHTML=outputMessage;
 
 }
+
