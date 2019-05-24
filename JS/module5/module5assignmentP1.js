@@ -1,22 +1,18 @@
+/* *Message and words in message are flipped around. If you read the sentence backwards it makes sense.* */
 function encryptionAssignmentP1(){
-  let message = prompt("What is your message?")
-  let words = message.split(" ");
-  let outputMessage = "" ;
-  let otherLetters = "";
-  let encrypted = "";
+  let message = prompt("What is your message?");
+  let words = message.split(" ").reverse();
   let listLength = words.length;
+  let cypher = "";
   
-  for (i=0; i<listLength; i++){
-    let firstLetter = words[i][0].toLowerCase();
-    if (firstLetter == "a"||firstLetter == "e"||firstLetter =="i"||firstLetter =="o"||firstLetter =="u"||words[i].length<3){
-      encrypted += words[i] + " ";
-    }else{      
-      let otherLetters = words[i].slice(1);
-      encrypted += otherLetters + words[i][0] + "ay ";
+  for (j=0; j<listLength; j++){
+    for (i=words[j].length-1; i>-1; i--){
+      cypher = cypher + words[j][i];   
     }
+    cypher += " ";
   }
-  outputMessage = encrypted.toLowerCase()
-  document.getElementById("module5assignP1").innerHTML=outputMessage;
-
+  console.log(cypher);
 }
+encryptionAssignmentP1()
+
 
