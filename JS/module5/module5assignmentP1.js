@@ -11,8 +11,7 @@ function encryptionAssignmentP1(){
     }
     cypher += " ";
   }
-  console.log(cypher);
+  document.getElementById("module5assignP1").innerHTML = cypher;
 }
-encryptionAssignmentP1()
 
 
