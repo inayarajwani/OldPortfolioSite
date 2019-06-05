@@ -108,10 +108,10 @@ color: lightblue;
 }
 .card_Modules li{
   border: none;
-  color: white;
+  color: black;
   padding: 5px 10px;
   text-align: center;
-  text-decoration: none;
+  list-style-type: none;
   /*display: inline-flex;*/
   font-size: 16px;
   text-decoration-style: none;
@@ -137,8 +137,6 @@ color: lightblue;
   margin-top: 0px;
   border-radius: 4px;
 }
-
-
 
 /*General Stuff*/
 
@@ -257,9 +255,7 @@ background-image: url("https://www.canva.com/learn/wp-content/uploads/2015/05/di
 
 
 
-.links{
-  
-}
+
 
 
 
