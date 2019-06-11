@@ -110,6 +110,11 @@ color: lightblue;
 
 }
 
+#dialog-window_Mod2 {
+  height: 200px;
+  border: 1px black solid;
+  margin-left: 50px;
+}
 
 .container_Modules{
   display: flex;
