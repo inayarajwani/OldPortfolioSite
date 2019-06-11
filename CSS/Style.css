@@ -79,7 +79,11 @@ color: lightblue;
 /*AssignmentsPage*/
 
 #Modules{
+  margin-top: 10px;
   text-align: center;
+}
+
+#Modules_Assignments{
   margin-top: 10px;
 }
 
@@ -91,6 +95,21 @@ color: lightblue;
   margin-top: 20px;
 
 }
+
+#dialog-window {
+  height: 200px;
+  border: 1px black solid;
+  margin-left: -400px;
+}
+
+#scrollable-content {
+  height: 180px;
+  overflow: auto;
+  margin-left: 30px;
+  margin-top: 10px;
+
+}
+
 
 .container_Modules{
   display: flex;
@@ -208,7 +227,7 @@ hr{
 #ethics-meme{
   border-radius: 15%;
   height: 40%;
-  width: 200%;
+  width: 20%;
   margin-left: 2px;
   margin-top: 20px;
 }
