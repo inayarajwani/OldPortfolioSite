@@ -85,28 +85,27 @@ color: lightblue;
 
 #Modules_Assignments{
   margin-top: 10px;
-  text-align: justify;
+  text-align: center;
 }
 
 #Modules_Assignments_M1{
   margin-top: 10px;
-  text-align: justify;
-  margin-left: 200px;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 #Modules_Assignments_M2{
   margin-top: 0px;
+  text-align: center; 
 }
 
-#title_Modules {
-  position: relative;
+/* #title_Modules {
   font-family: Oswald;
   font-size: 50px;
-  left: 500px;
   margin-top: 20px;
-
-}
+  width: 100%; 
+  justify-content: center; 
+} */
 
 .dialog-window {
   height: 200px;
@@ -135,13 +134,11 @@ color: lightblue;
 .dialog-window_Mod2 {
   height: 200px;
   border: 1px black solid;
-  margin-left: 800px;
   padding-left: 0px;
   margin-right: 40px;
   display: flex;
   padding: 10px;
-  flex-direction: column;
-  margin-top: -265px;
+  flex-direction: column; 
 }
 
 #container_Modules{
@@ -204,9 +201,7 @@ color: lightblue;
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  float: left;
 }
-
 
 .footer{
   left: 0;
@@ -314,6 +309,66 @@ background-image: url("https://www.canva.com/learn/wp-content/uploads/2015/05/di
   z-index: -1;
 }
 
+/* CHANGES */
+#title_Modules {
+  font-family: Oswald;
+  font-size: 50px;
+  margin-top: 20px;
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.modules{
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.row{
+  display: flex; 
+  flex-direction: row;
+  padding: 50px; 
+}
+
+.module1{
+  margin-right: 50px; 
+}
+
+.module1, .module2{
+  width: 45%; 
+  padding: 20px; 
+  justify-content: center; 
+}
+
+.module3, .module6, .module7{
+  width: 30%; 
+  padding: 20px; 
+  justify-content: center; 
+}
+
+.visit{
+  width: 100%; 
+  text-align: center;
+  display: flex; 
+  justify-content: center;  
+}
+
+.button{
+  color: black; 
+  text-decoration: none; 
+}
+
+.button p{
+  border: 1px solid black; 
+  padding: 10px; 
+  text-decoration: none; 
+}
+
+.button p:hover{
+  background-color: grey; 
+  color: white; 
+}
 
 
 
