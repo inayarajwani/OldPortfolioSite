@@ -144,6 +144,7 @@ color: lightblue;
   justify-content: space-around;
   padding: 10px;
   flex-direction: row;
+  margin-bottom: 10rem;
 }
 
 .card_Modules{
