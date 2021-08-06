@@ -1,2 +1,2 @@
 # MyPortfolioSite
-https://github.com/inayarajwani/OldPortfolioSite.git
+https://inayarajwani.github.io/MyPortfolioSite/
