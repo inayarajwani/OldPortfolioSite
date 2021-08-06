@@ -1,0 +1,377 @@
+* {
+    margin: 0; 
+    padding: 0.5; 
+}
+
+
+/*1. Nav Bar*/
+#title{
+  color: lightblue;
+  width: 100%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 35px;
+  justify-content: flex-start;
+}
+
+.tabs {
+  width: 100%; 
+  display: inline-flex;
+  flex-direction: row; 
+  justify-content: end;
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: 100;
+
+}
+
+.home, .assignments, .projects, .practice_and_activities {
+  padding: 0 10px;
+  display: inline-flex;
+  font-weight: 100;
+}
+
+/*a.generalnav*/
+.generalnav { 
+    background-color: black;
+    padding: 30px;
+    padding-top: 35px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.generalnav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.generalnav ul li a:hover {
+color: lightblue;
+}
+
+
+/*2. HomePage*/
+.welcome_message{
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300; 
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#Experience{
+  text-decoration: underline;
+  color: #6495ED;
+}
+
+/*AssignmentsPage*/
+
+#Modules{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#Modules_Assignments{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#Modules_Assignments_M1{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#Modules_Assignments_M2{
+  margin-top: 0px;
+  text-align: center; 
+}
+
+/* #title_Modules {
+  font-family: Oswald;
+  font-size: 50px;
+  margin-top: 20px;
+  width: 100%; 
+  justify-content: center; 
+} */
+
+.dialog-window {
+  height: 200px;
+  border: 1px black solid;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 650px;
+  float: left;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 550px;
+  position: relative;
+}
+
+.scrollable-content {
+  height: 180px;
+  overflow: auto;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.dialog-window_Mod2 {
+  height: 200px;
+  border: 1px black solid;
+  padding-left: 0px;
+  margin-right: 40px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column; 
+}
+
+#container_Modules{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: row;
+  margin-bottom: 10rem;
+}
+
+.card_Modules{
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 40px;
+  float: left;
+}
+.card_Modules li{
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  list-style-type: none;
+  /*display: inline-flex;*/
+  font-size: 16px;
+  text-decoration-style: none;
+  margin-top: 0px;
+  border-radius: 4px;
+}
+
+.card_Modules button{
+   background-color: grey; /* Green */
+   border-radius: 4px;
+   color: white;
+   padding: 20px 20px;
+}
+
+.card_Modules_Assignments li{
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: relative;
+  /*display: inline-flex;*/
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  border-radius: 4px;
+}
+
+/*General Stuff*/
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.card{
+  padding-left: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d5f6f6;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+
+.big-box{
+  position: sticky;
+}
+
+
+/*text properties*/
+body{
+  font-family: "Roboto Condensed", serif;
+  color: black;
+  font-size: 20px;
+}
+
+h2{
+  text-align: center;
+  font-family: "Satisfy";
+  font-size: 50px;
+  position: sticky;
+  margin-right: -20px;
+  margin-left: 20px;
+}
+
+h4{
+  font-family: Oswald;
+  font-size: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-family: Oswald;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+hr{
+  height: 20px;
+  display: block;
+  border: 0;
+  border-top: 1px solid lightblue;
+  margin: 1em 0;
+  padding: 0;
+  border-width: 5px;
+}
+
+/*Images*/
+#ethics-meme{
+  border-radius: 15%;
+  height: 40%;
+  width: 20%;
+  margin-left: 2px;
+  margin-top: 20px;
+}
+
+#profile-picture{
+  border-radius: 15%;
+  height: 35%;
+  width: 30%;
+  margin-left: 2%;
+  justify-content: flex-start;
+}
+
+#instagram-icon{
+  margin-bottom: -3px; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hero-image{
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+min-height: 100%;
+margin-top: 0px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-image: url("https://www.canva.com/learn/wp-content/uploads/2015/05/diy-design-rules.jpg")
+}
+
+.hero-image::after{
+  background-color: white;
+  opacity: 0.5;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%
+  height: 100%
+  z-index: -1;
+}
+
+/* CHANGES */
+#title_Modules {
+  font-family: Oswald;
+  font-size: 50px;
+  margin-top: 20px;
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.modules{
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.row{
+  display: flex; 
+  flex-direction: row;
+  padding: 50px; 
+}
+
+.module1{
+  margin-right: 50px; 
+}
+
+.module1, .module2{
+  width: 45%; 
+  padding: 20px; 
+  justify-content: center; 
+}
+
+.module3, .module6, .module7{
+  width: 30%; 
+  padding: 20px; 
+  justify-content: center; 
+}
+
+.visit{
+  width: 100%; 
+  text-align: center;
+  display: flex; 
+  justify-content: center;  
+}
+
+.button{
+  color: black; 
+  text-decoration: none; 
+}
+
+.button p{
+  border: 1px solid black; 
+  padding: 10px; 
+  text-decoration: none; 
+}
+
+.button p:hover{
+  background-color: grey; 
+  color: white; 
+}
+
+
+
+
+
+
+
